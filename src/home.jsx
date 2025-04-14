@@ -8,7 +8,11 @@ import MostSearched from './components/MostSearched'
 import InfoSection from './components/InfoSection'
 import Footer from './components/Footer'
 
+
 function Home() {
+  
+
+  
   return (
     <div>
       <Header/>

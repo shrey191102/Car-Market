@@ -29,7 +29,7 @@ function Search() {
         </SelectContent>
       </Select>
 
-      <Separator orientation="vertical" className="hidden md:block" />
+      <Separator orientation="vertical" className="hidden md:block bg-slate-300" />
 
       <Select>
         <SelectTrigger className="w-[180px] outline-none md:border-none shadow-none">
@@ -40,7 +40,7 @@ function Search() {
         </SelectContent>
       </Select>
 
-      <Separator orientation="vertical"  className="hidden md:block" />
+      <Separator orientation="vertical"  className="hidden md:block  bg-slate-300" />
 
       <Select>
         <SelectTrigger className="w-[180px] outline-none md:border-none shadow-none">

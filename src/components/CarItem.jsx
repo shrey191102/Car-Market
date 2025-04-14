@@ -14,7 +14,7 @@ function CarItem({car}) {
             <h2 className='font-bold text-black text-lg mb-2'>
                 {car?.name}
             </h2>
-            <Separator />
+            <Separator className="bg-slate-300" />
         </div>
         <div className=" grid grid-cols-3 mt-4">
           <div className="flex flex-col items-center">
@@ -30,7 +30,7 @@ function CarItem({car}) {
           <h2>{car?.gearType} </h2>
           </div>
         </div>
-        <Separator className="my-2" />
+        <Separator className="my-2 bg-slate-300" />
         <div className="flex justify-between items-center mx-4">
           <h2 className="font-bold text-xl  ">${car?.price}</h2>
           <h2 className="text-primary text-sm">View Details</h2>
